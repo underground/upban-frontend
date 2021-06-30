@@ -34,8 +34,8 @@ export default NextAuth({
     }),
   ],
   pages: {
-    signin: '/auth/signin',
-    signout: '/',
+    signIn: '/auth/signin',
+    signOut: '/',
     error: '/auth/signin',
     // verifyRequest: '/auth/verify-request', // (used for check email message)
     // newUser: null,
