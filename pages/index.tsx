@@ -25,7 +25,7 @@ const Root = () => {
         Signed in as <img src={session.user.image ?? ""} width="50px" />
         　{session.user.name} <br />
         AccessToken : {session.accessToken} <br />
-        <button onClick={signOut}>Sign out</button>
+        <button onClick={() => signOut()}>Sign out</button>
       </>
     )}
   </>
